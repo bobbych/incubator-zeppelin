@@ -427,8 +427,9 @@
         <activeByDefault>false</activeByDefault>
       </activation>
       <properties>
-        <hadoop.version>2.3.0-mapr-4.0.0-FCS</hadoop.version>
-        <yarn.version>2.3.0-mapr-4.0.0-FCS</yarn.version>
+        <hadoop.version>2.5.1-mapr-1503</hadoop.version>
+        <yarn.version>2.5.1-mapr-1503</yarn.version>
+        <protobuf.version>2.5.0</protobuf.version>
       </properties>
       <dependencies>
         <dependency>
