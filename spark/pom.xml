@@ -39,7 +39,7 @@
     <scala.version>2.10.4</scala.version>
     <scala.binary.version>2.10</scala.binary.version>
 
-    <hadoop.version>2.3.0</hadoop.version>
+    <hadoop.version>${hadoop.version}</hadoop.version>
     <yarn.version>${hadoop.version}</yarn.version>
     <avro.version>1.7.7</avro.version>
     <avro.mapred.classifier></avro.mapred.classifier>
@@ -55,6 +55,16 @@
       <id>cloudera</id>
       <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
     </repository>
+    <repository>
+      <id>mapr-repo</id>
+      <name>MapR Repository</name>
+      <url>http://repository.mapr.com/maven</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
   </repositories>
 
   <dependencyManagement>
